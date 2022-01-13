@@ -1,0 +1,137 @@
+
+
+body{
+  margin:0;
+  background-color: #519259;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  align-items:center;
+  /*font-family: "Lucida Console", "Courier New", monospace;*/
+}
+.bottom-container{
+
+
+
+}
+.below-cloud{
+  height: 50px;
+  width:100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: absolute;
+  top:500px;
+  left:300px;
+
+}
+
+
+
+.cloud-bottom{
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  top:130px;
+  right:150px;
+}
+.cloud-bottomone{
+  height: 70px;
+  width: 100px;
+  position: absolute;
+  top:450px;
+  left:150px;
+
+}
+.cloud-bottomtwo{
+  height: 60px;
+  width: 100px;
+  position: absolute;
+  top: 400px;
+  right: 40px;
+
+
+
+}
+.cloud-bottomthree{
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  top: 800px;
+  right: 700px;
+
+}
+.cloud-top{
+  height: 50px;
+  width:100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: absolute;
+  top: 70px;
+  right: 700px;
+}
+
+.Farm-image{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top:300px;
+  right:316px;
+
+
+}
+
+.middle-container{
+  margin-top: 800px;
+
+
+
+}
+.SkillsImg{
+  display: auto;
+  height: 50px;
+  width: 50px;
+}
+.top-container{
+
+
+
+
+
+
+
+}
+.Tittle-text{
+  margin: 0 auto 0 auto;
+  position: relative;
+  top:160px;
+
+}
+h1{
+  color:#CFFFDC;
+  font-size: 50px;
+  font-family: 'Sacramento', cursive;
+
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+
+}
+.secFarm-image{
+      margin: 0 auto 0 auto;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      top: 800px;
+      right: 200px;
+      display:none;
+}
+p{
+  color:#CFFFDC
+
+
+}
