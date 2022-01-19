@@ -38,7 +38,7 @@ body{
   width: 100px;
   position: absolute;
   top:450px;
-  left:150px;
+  left:500px;
 
 }
 .cloud-bottomtwo{
@@ -46,7 +46,7 @@ body{
   width: 100px;
   position: relative;
   top: 600px;
-  left: 150px;
+  left: 219px;
 }
 .cloud-bottomthree{
   height: 50px;
@@ -113,7 +113,7 @@ img.Farm-image{
 div.top-container{                                                      /**/
   width:100%;
   margin:0 auto 0 auto;
-  border: 10px solid magenta;
+
   height:590px;
   max-width:700px;
   min-width: 500px;
