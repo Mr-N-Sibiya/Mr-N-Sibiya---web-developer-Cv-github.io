@@ -8,9 +8,11 @@ body{
   align-items:center;
   /*font-family: "Lucida Console", "Courier New", monospace;*/
 }
-.bottom-container{
-
-
+.bottom-container{                                                      /**/
+  width:100%;
+  margin:0 auto 0 auto;
+  max-width:700px;
+  min-width: 500px;
 
 }
 .below-cloud{
@@ -23,8 +25,6 @@ body{
   left:300px;
 
 }
-
-
 
 .cloud-bottom{
   height: 50px;
@@ -42,21 +42,19 @@ body{
 
 }
 .cloud-bottomtwo{
-  height: 60px;
+  height: 70px;
   width: 100px;
-  position: absolute;
-  top: 400px;
-  right: 40px;
-
-
-
+  position: relative;
+  top: 600px;
+  left: 150px;
 }
 .cloud-bottomthree{
   height: 50px;
   width: 100px;
-  position: absolute;
+  position: relative;
   top: 800px;
   right: 700px;
+
 
 }
 .cloud-top{
@@ -68,19 +66,40 @@ body{
   top: 70px;
   right: 700px;
 }
+.cover{
+  width: 100%;
+  padding: 0px;
 
-.Farm-image{
+}
+
+
+img.Farm-image{
   height: 400px;
   width: 400px;
-  position: absolute;
-  top:300px;
-  right:316px;
+  position: relative;
+  top:50%;
+  /*right:316px;*/
+  left: 12.1875%;
+
+
+
+}
+.false-container{                                                         /**/
+  width:100%;
+  margin:0 auto;
+  height:400px;
+  max-width:700px;
+  min-width: 500px;
 
 
 }
 
-.middle-container{
-  margin-top: 800px;
+.middle-container{                                                    /**/
+  /*margin-top: 800px;*/
+  width:100%;
+  margin:0 auto;
+  max-width:700px;
+  min-width: 500px;
 
 
 
@@ -90,13 +109,14 @@ body{
   height: 50px;
   width: 50px;
 }
-.top-container{
 
-
-
-
-
-
+div.top-container{                                                      /**/
+  width:100%;
+  margin:0 auto 0 auto;
+  border: 10px solid magenta;
+  height:590px;
+  max-width:700px;
+  min-width: 500px;
 
 }
 .Tittle-text{
@@ -107,9 +127,8 @@ body{
 }
 h1{
   color:#CFFFDC;
-  font-size: 50px;
+  font-size: 562.5%;
   font-family: 'Sacramento', cursive;
-
 
 }
 h2{
@@ -120,6 +139,11 @@ h3{
 }
 hr{
 
+}
+#underNameTitle{
+    position: relative;
+    bottom: 85px;
+    font-size: 1.87em;
 }
 .secFarm-image{
       margin: 0 auto 0 auto;
